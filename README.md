@@ -1,9 +1,8 @@
-### Repository Notes
+#### Repository Notes
 
 Prompts and result tables can be found in the respective use case folders README files
 
-### Frameworks version used  
-#### Framework versions used for tests:
+#### Frameworks version used for tests:
 
 **MetaGPT v0.8.2**:  
 Repository: https://github.com/FoundationAgents/MetaGPT  
