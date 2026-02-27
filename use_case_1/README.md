@@ -1,9 +1,7 @@
-# Prompt
+# Prompt:
 
-> **Direct Chat**
->
 > ```
-> # Prompt: Create a snake game in Python
+> Create a snake game in Python
 > ## Requirements:
 > ### Game Board:
 > - Create a grid-based game board.
@@ -42,172 +40,55 @@
 > - Implement visual effects for collisions and food consumption.
 > ```
 
-# Tests
 
-## llama3.2:3b-instruct-q4_K_M (2.0GB)
+# RQ1 – UC1 Results
 
-* **MetaGPT** (Execution time in seconds = 121.831):
-* **ChatDev** (Execution time in seconds = 1540.0):
-* **Direct Chat** (Execution time in seconds = 27): the program was created divided into blocks in the chat and therefore it was necessary to copy and paste: in the code see "NEW SECTION". Furthermore the code was generated without indentation.
+**Performance of different LLMs without frameworks and combined with different frameworks (UC1).**  
+Notation:  
+- **CG (Y/N)**: Code Generated  
+- **CE (Y/N)**: Code Executed  
+- **RT**: Runtime (seconds)  
+- **RM**: Requirements Met (out of 10)
 
-## llama3.2:3b-instruct-fp16 (6.4GB)
-
-* **MetaGPT** (Execution time in seconds = 1043.378):
-* **ChatDev** (Execution time in seconds = 1524.0):
-* **Direct Chat** (Execution time in seconds = 61): it doesn't seem to work.
-
-## qwen2.5:3b-instruct-q4_K_M (1.9GB)
-
-* **MetaGPT** (Execution time in seconds = 172.69):
-* **ChatDev** (Execution time in seconds = 503.0):
-* **Direct Chat** (Execution time in seconds = 25): it doesn't seem to work.
-
-## qwen2.5:3b-instruct-fp16 (6.2GB)
-
-* **MetaGPT** (Execution time in seconds = 1446.626):
-* **ChatDev** (Execution time in seconds = 1059.0):
-* **Direct Chat** (Execution time in seconds = 71): it doesn't seem to work.
-
-## codellama:7b-instruct-q4_0 (3.8GB)
-
-* **MetaGPT** (Execution time in seconds = 1016.22):
-* **ChatDev** (Execution time in seconds = 863.0):
-* **Direct Chat** (Execution time in seconds = 125): the program was created divided into blocks in the chat and therefore it was necessary to copy and paste: in the code see "NEW SECTION". In addition, the generated code is all disorganized and cannot be executed.
-
-## codellama:7b-instruct-fp16 (13GB)
-
-* **MetaGPT** (Execution time in seconds = 903.755):
-* **ChatDev** (Execution time in seconds = 3206.0):
-* **Direct Chat** (Execution time in seconds = 56): no code was generated.
-
-## qwen2.5:7b-instruct-q4_K_M (4.7GB)
-
-* **MetaGPT** (Execution time in seconds = 356.067):
-* **ChatDev** (Execution time in seconds = 851.0):
-* **Direct Chat** (Execution time in seconds = 68): it doesn't seem to work.
-
-## qwen2.5:7b-instruct-fp16 (15GB)
-
-* **MetaGPT** (Execution time in seconds = 719.934):
-* **ChatDev** (Execution time in seconds = 1911.0):
-* **Direct Chat** (Execution time in seconds = 131): the code runs and seems to work, but there's an unexpected behavior: the snake can reverse direction and ends up dying by colliding with itself.
-
-## deepseek-r1:8b-0528-qwen3-q4_K_M (5.2GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 159): the generated code doesn't work because it forgot to declare the 'game_over' variable as global. After fixing that, the game seems to run, but collisions aren't handled properly, and the snake is basically immortal.
-
-## deepseek-r1:8b-0528-qwen3-fp16 (16GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = -): it doesn't seem to work. It might be that the context window limit was reached, and the model lost track of its reasoning. At some point, the response had to be forcibly interrupted because the model got stuck in a loop.
-
-## deepseek-coder-v2:16b-lite-instruct-q4_K_M (10GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 54): it doesn't seem to work.
-
-## deepseek-coder-v2:16b-lite-instruct-fp16 (31GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 77): it doesn't seem to work.
-
-## devstral:24b-small-2505-q4_K_M (14GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 152): it seems to work, but only when run from the terminal. More testing is needed to verify that it meets all the requirements.
-
-## devstral:24b-small-2505-fp16 (47GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 440): it seems to work, but only when run from the terminal. More testing is needed to verify that it meets all the requirements.
-
-## gemma3:27b-it-q4_K_M (17GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 336): the game starts and mostly works correctly, but some behaviors don't seem right. For example, when the game ends and you press 'R', it doesn't restart but closes completely instead.
-
-## gemma3:27b-it-fp16 (55GB)
-
-* **MetaGPT** (Execution time in seconds = 4739.478):
-* **ChatDev** (Execution time in seconds = 20995.0):
-* **Direct Chat** (Execution time in seconds = 866): the code runs and seems to work, but there's an unexpected behavior: the snake can reverse direction and ends up dying by colliding with itself.
-
-## qwen2.5-coder:32b-instruct-q4_K_M (20GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 227): the code runs and seems to work, but there's an unexpected behavior: the snake can reverse direction and ends up dying by colliding with itself.
-
-## qwen2.5-coder:32b-instruct-fp16 (66GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 757): the code runs and seems to work, but there's an unexpected behavior: the snake can reverse direction and ends up dying by colliding with itself.
-
-## qwen2.5:32b-instruct-q4_K_M (20GB)
-
-* **MetaGPT** (Execution time in seconds = 1361.282):
-* **ChatDev** (Execution time in seconds = 10277.0):
-* **Direct Chat** (Execution time in seconds = 233): the game seems to work, but at times it appears to be too slow in responding to keyboard input and updating the snake's position. For example, if the snake is moving to the right and I quickly press up and then left in succession, the snake dies by colliding with itself — even though this behavior shouldn't be possible. This issue needs to be investigated further.
-
-## qwen2.5:32b-instruct-fp16 (66GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 652): the code runs and seems to work, but there's an unexpected behavior: the snake can reverse direction and ends up dying by colliding with itself.
-
-## deepseek-r1:32b-qwen-distill-q4_K_M (20GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 375): it doesn't seem to work.
-
-## deepseek-r1:32b-qwen-distill-fp16 (66GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 939): the code must be run from the terminal, but it still doesn't work properly.
-
-## llama3.3:70b-instruct-q3_K_M (34GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 302): the game seems to work, but at times it appears to be too slow in responding to keyboard input and updating the snake's position. For example, if the snake is moving to the right and I quickly press up and then left in succession, the snake dies by colliding with itself — even though this behavior shouldn't be possible. This issue needs to be investigated further.
-
-## llama3.3:70b-instruct-q4_K_M (43GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 506): the game starts, but the food and the snake are misaligned, making it impossible to eat the food. There are also other issues that need to be investigated further.
-
-## llama3.3:70b-instruct-q8_0 (75GB)
-
-* **MetaGPT** (Execution time in seconds = 8266.309):
-* **ChatDev** (Execution time in seconds = 14412.0):
-* **Direct Chat** (Execution time in seconds = 866): the game works, but there are some incorrect behaviors. There's no option to restart the game. Additionally, at times it appears to be too slow in responding to keyboard input and updating the snake's position. For example, if the snake is moving to the right and I quickly press up and then left in succession, the snake dies by colliding with itself — even though this behavior shouldn't be possible. This issue needs to be investigated further.
-
-## nemotron:70b-instruct-q2_K (26GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 374): the game has been developed and split into multiple files, but several imports are missing, so the code cannot be executed.
-
-## nemotron:70b-instruct-q4_K_M (43GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 529): it doesn't seem to work.
-
-## nemotron:70b-instruct-q8_0 (75GB)
-
-* **MetaGPT** (Execution time in seconds = ):
-* **ChatDev** (Execution time in seconds = ):
-* **Direct Chat** (Execution time in seconds = 608): the game starts, but there are several incorrect behaviors that need to be investigated.
+| Scenario | CG | CE | RT (s) | RM |
+|----------|----|----|--------|----|
+| qwen_32b_q4 | Y | Y | 233.00 | 8 |
+| qwen_32b_q4 + MetaGPT | Y | Y | 1361.28 | 4 |
+| qwen_32b_q4 + ChatDev | Y | N | 10277.00 | 0 |
+| qwen_32b_q4 + AgileCoder | Y | Y | 2641.00 | 8 |
+| qwen_32b_q4 + HyperAgent | Y | Y | 161.97 | 1 |
+| gemma_27b_fp16 | Y | Y | 866.00 | 9 |
+| gemma_27b_fp16 + MetaGPT | Y | Y | 4739.48 | 0 |
+| gemma_27b_fp16 + ChatDev | N | N | 20995.00 | 0 |
+| gemma_27b_fp16 + AgileCoder | Y | Y | 4969.00 | 3 |
+| gemma_27b_fp16 + HyperAgent | Y | N | 2168.33 | 0 |
+| qwen2_7b_fp16 | Y | Y | 131.00 | 8 |
+| qwen2_7b_fp16 + MetaGPT | Y | N | 719.93 | 0 |
+| qwen2_7b_fp16 + ChatDev | N | N | 1911.00 | 0 |
+| qwen2_7b_fp16 + AgileCoder | Y | N | 1636.00 | 0 |
+| qwen2_7b_fp16 + HyperAgent | Y | Y | 93.14 | 1 |
+| qwen2_7b_q4 | Y | N | 68.00 | 0 |
+| qwen2_7b_q4 + MetaGPT | Y | Y | 356.07 | 0 |
+| qwen2_7b_q4 + ChatDev | N | N | 851.00 | 0 |
+| qwen2_7b_q4 + AgileCoder | Y | Y | 2541.00 | 2 |
+| qwen2_7b_q4 + HyperAgent | Y | N | 91.91 | 0 |
+| gpt_oss_20b | Y | Y | 32.00 | 0 |
+| gpt_oss_20b + MetaGPT | Y | Y | 561.67 | 8 |
+| gpt_oss_20b + ChatDev | Y | Y | 306.00 | 10 |
+| gpt_oss_20b + AgileCoder | Y | Y | 623.00 | 3 |
+| gpt_oss_20b + HyperAgent | N | N | 18.09 | 0 |
+| llama3_70b_q3 | Y | Y | 302.00 | 8 |
+| llama3_70b_q3 + MetaGPT | Y | Y | 2190.71 | 8 |
+| llama3_70b_q3 + ChatDev | Y | Y | 3075.00 | 4 |
+| llama3_70b_q3 + AgileCoder | Y | Y | 24000.00 | 0 |
+| llama3_70b_q3 + HyperAgent | Y | Y | 2812.85 | 8 |
+| llama3_70b_q4 | Y | Y | 506.00 | 5 |
+| llama3_70b_q4 + MetaGPT | N | N | 2777.27 | 0 |
+| llama3_70b_q4 + ChatDev | Y | Y | 3379.00 | 6 |
+| llama3_70b_q4 + AgileCoder | Y | Y | 31906.00 | 6 |
+| llama3_70b_q4 + HyperAgent | Y | Y | 779.40 | 0 |
+| devstral_24b_fp16 | Y | Y | 440.00 | 7 |
+| devstral_24b_fp16 + MetaGPT | Y | Y | 1400.02 | 8 |
+| devstral_24b_fp16 + ChatDev | Y | N | 4506.00 | 0 |
+| devstral_24b_fp16 + AgileCoder | Y | N | 1325.00 | 0 |
+| devstral_24b_fp16 + HyperAgent | Y | N | 2649.08 | 0 |
