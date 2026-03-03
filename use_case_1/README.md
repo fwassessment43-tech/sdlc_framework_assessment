@@ -92,3 +92,34 @@ Notation:
 | devstral_24b_fp16 + ChatDev | Y | N | 4506.00 | 0 |
 | devstral_24b_fp16 + AgileCoder | Y | N | 1325.00 | 0 |
 | devstral_24b_fp16 + HyperAgent | Y | N | 2649.08 | 0 |
+
+
+# Qualitative evaluation
+## (Score: functionalities - usability - appearence)
+
+### MetaGPT
+
+#### gpt_oss_20b:
+Score: 4-1-2  
+Requirements met: 8/10  
+Game playable only via terminal. Small game board and too fast snake movement affect usability.
+
+![Testo alternativo](../images/use_case_1/metagpt-gpt_oss_20b.JPG)
+
+### ChatDev
+
+#### gpt_oss_20b:
+Score: 5-5-5  
+Requirements met: 10/10  
+All requirements met, included some snake movement animation effects.
+
+![Testo alternativo](../images/use_case_1/chatdev-gpt_oss_20b.JPG)
+
+### No-framework
+
+#### deepseek_r1_32b_qwen_distill_q4_K_M
+Score: 4-1-2  
+Requirements met: 8/10  
+Game is playable only via terminal. There's latency in snake movement that reduces usability.
+
+![Testo alternativo](../images/use_case_1/no-framework-deepseek_r1_32b_qwen_distill_q4_K_M.JPG)
