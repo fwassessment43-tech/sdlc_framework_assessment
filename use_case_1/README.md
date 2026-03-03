@@ -113,7 +113,7 @@ Score: 5-5-5
 Requirements met: 10/10  
 All requirements met, included some snake movement animation effects.
 
-![Testo alternativo](../images/use_case_1/chatdev-gpt_oss_20b.JPG)
+<img src="../images/use_case_1/chatdev-gpt_oss_20b.JPG" alt="Testo alternativo" width="400">
 
 ### No-framework
 
