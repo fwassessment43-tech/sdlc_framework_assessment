@@ -146,13 +146,13 @@ Notation:
 
 ### ChatDev
 
-#### chatdev-gemma3_27b_it_fp16:
+#### chatdev-gemma3_27b_it_fp16
 Score: 3-3-3  
 Requirements met: 4/12  
 GUI is well implemented and DB is correctly implemented. Insert and close tickets functionalities implemented. 
 No Login and other functionalities (services, etc...) implemented.
 
-![Testo alternativo](../images/use_case_2/chatdev-gemma3_27b_it_fp16.JPG)
+<img src="../images/use_case_2/chatdev-gemma3_27b_it_fp16.JPG" width="400">
 
 #### qwen2_5_32b_instruct_q4_K_M-1
 Score: 2-2-2  
@@ -160,11 +160,11 @@ Requirements met: 3/12
 User and admin GUI implemented. Insert tickets functionality works but the GUI duplicates all tickets entries for each new ticket created. 
 Update tickets doesn’t work. Microservices not implemented.
 
-![Testo alternativo](../images/use_case_2/chatdev-qwen2_5_32b_instruct_q4_K_M-1.JPG)
+<img src="../images/use_case_2/chatdev-qwen2_5_32b_instruct_q4_K_M-1.JPG" width="400">
 
 ### AgileCoder
 
-#### gpt_oss_20b:
+#### gpt_oss_20b
 Score: 2-1-3  
 Requirements met: 2/12  
 This solution has a small SQL bug that if fixed would produce a very good solution with almost
@@ -176,11 +176,11 @@ All the requirements met except for the message exchange functionality.
 
 (The following images refer to the bug-fixed version.)
 
-![Testo alternativo](../images/use_case_2/agilecoder-gpt_oss_20b-1.JPG)
+<img src="../images/use_case_2/agilecoder-gpt_oss_20b-1.JPG" width="400">
 
-![Testo alternativo](../images/use_case_2/agilecoder-gpt_oss_20b-2.JPG)
+<img src="../images/use_case_2/agilecoder-gpt_oss_20b-2.JPG" width="400">
 
-![Testo alternativo](../images/use_case_2/agilecoder-gpt_oss_20b-services.JPG)
+<img src="../images/use_case_2/agilecoder-gpt_oss_20b-services.JPG" width="400">
 
 ### No-framework
 
@@ -191,8 +191,8 @@ GUI is well implemented, but there is no possibility to view inserted tickets im
 Exchange messages functionality is implemented.
 No active and close tickets functionality and no microservices.  
 
-![Testo alternativo](../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-insert-ticket.JPG)
+<img src="../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-insert-ticket.JPG" width="400">
 
-![Testo alternativo](../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-view_ticket.JPG)
+<img src="../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-view_ticket.JPG" width="400">
 
-![Testo alternativo](../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-messages.JPG)
+<img src="../images/use_case_2/no-framework-llama3_3_70b_instruct_q4_K_M-messages.JPG" width="400">

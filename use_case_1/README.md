@@ -99,21 +99,21 @@ Notation:
 
 ### MetaGPT
 
-#### gpt_oss_20b:
+#### gpt_oss_20b
 Score: 4-1-2  
 Requirements met: 8/10  
 Game playable only via terminal. Small game board and too fast snake movement affect usability.
 
-![Testo alternativo](../images/use_case_1/metagpt-gpt_oss_20b.JPG)
+<img src="../images/use_case_1/metagpt-gpt_oss_20b.JPG" width="400">
 
 ### ChatDev
 
-#### gpt_oss_20b:
+#### gpt_oss_20b
 Score: 5-5-5  
 Requirements met: 10/10  
 All requirements met, included some snake movement animation effects.
 
-<img src="../images/use_case_1/chatdev-gpt_oss_20b.JPG" alt="Testo alternativo" width="400">
+<img src="../images/use_case_1/chatdev-gpt_oss_20b.JPG" width="400">
 
 ### No-framework
 
@@ -122,4 +122,4 @@ Score: 4-1-2
 Requirements met: 8/10  
 Game is playable only via terminal. There's latency in snake movement that reduces usability.
 
-![Testo alternativo](../images/use_case_1/no-framework-deepseek_r1_32b_qwen_distill_q4_K_M.JPG)
+<img src="../images/use_case_1/no-framework-deepseek_r1_32b_qwen_distill_q4_K_M.JPG" width="400">
