@@ -95,7 +95,7 @@ Notation:
 | qwen_32b_q4 + AgileCoder | Y | N | 24065.00 | 0 |
 | qwen_32b_q4 + HyperAgent | Y | Y | 975.00 | 1 |
 | gemma_27b_fp16 | Y | Y | 951.00 | 2 |
-| gemma_27b_fp16 + MetaGPT | Y | N | 14757.52 | 0 |
+| 🔴 gemma_27b_fp16 (run 2) + MetaGPT | Y | N | 14757.52 | 5 |
 | gemma_27b_fp16 + ChatDev | Y | Y | 12924.00 | 4 |
 | gemma_27b_fp16 + AgileCoder | Y | Y | 27643.00 | 1 |
 | gemma_27b_fp16 + HyperAgent | Y | N | 3021.44 | 0 |
