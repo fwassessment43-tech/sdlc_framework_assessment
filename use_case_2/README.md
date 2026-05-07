@@ -91,24 +91,39 @@ Notation:
 |----------|----|----|--------|----|
 | qwen_32b_q4 | Y | N | 32.00 | 0 |
 | qwen_32b_q4 + MetaGPT | Y | Y | 304.31 | 1 |
-| qwen_32b_q4 + ChatDev | Y | Y | 7059.00 | 3 |
-| qwen_32b_q4 + AgileCoder | Y | N | 24065.00 | 0 |
+| 🔴 qwen_32b_q4 + ChatDev | Y | Y | 7059.00 | 6 |
+| 🔴 qwen_32b_q4 (run 3) + AgileCoder | Y | Y |  | 5 |
 | qwen_32b_q4 + HyperAgent | Y | Y | 975.00 | 1 |
 | gemma_27b_fp16 | Y | Y | 951.00 | 2 |
-| 🔴 gemma_27b_fp16 (run 2) + MetaGPT | Y | N | 14757.52 | 5 |
-| gemma_27b_fp16 + ChatDev | Y | Y | 12924.00 | 4 |
-| gemma_27b_fp16 + AgileCoder | Y | Y | 27643.00 | 1 |
-| gemma_27b_fp16 + HyperAgent | Y | N | 3021.44 | 0 |
+| 🔴 gemma_27b_fp16 (run 2) + MetaGPT | Y | N |  | 5 |
+| 🔴 gemma_27b_fp16 (run 2) + ChatDev | Y | Y |  | 4 |
+| 🔴 gemma_27b_fp16 (run 3) + AgileCoder | Y | Y |  | 5 |
+| 🔴 gemma_27b_fp16 (run 2) + HyperAgent | Y | Y |  | 2 |
+| 🔴 llama3_70b_q8 |  |  |  |  |
+| 🔴 llama3_70b_q8 + MetaGPT |  |  |  |  |
+| 🔴 llama3_70b_q8 (run 3) + ChatDev | Y | Y | | 1 |
+| 🔴 llama3_70b_q8 + AgileCoder |  |  |  |  |
+| 🔴 llama3_70b_q8 + HyperAgent |  |  |  |  |
+| 🔴 codellama_7b_q4 |  |  |  |  |
+| 🔴 codellama_7b_q4 + MetaGPT | Y | N |  | 0 |
+| 🔴 codellama_7b_q4 + ChatDev | Y | N |  | 0 |
+| 🔴 codellama_7b_q4 (run 3) + AgileCoder | Y | Y |  | 0 |
+| 🔴 codellama_7b_q4 + HyperAgent | N | N |  | 0 |
 | codellama_7b_fp16 | N | N | 15.00 | 0 |
-| codellama_7b_fp16 + MetaGPT | N | N | 9349.82 | 0 |
-| codellama_7b_fp16 + ChatDev | N | N | 437.00 | 0 |
+| 🔴 codellama_7b_fp16 (run 3) + MetaGPT | Y | Y |  | 0 |
+| codellama_7b_fp16 + ChatDev | Y | N | 437.00 | 0 |
 | codellama_7b_fp16 + AgileCoder | Y | Y | 2955.00 | 1 |
 | codellama_7b_fp16 + HyperAgent | N | N | 19.20 | 0 |
 | qwen2_7b_q4 | Y | Y | 16.00 | 2 |
 | qwen2_7b_q4 + MetaGPT | Y | N | 1857.86 | 0 |
 | qwen2_7b_q4 + ChatDev | N | N | 118.00 | 0 |
-| qwen2_7b_q4 + AgileCoder | Y | N | 1829.00 | 0 |
-| qwen2_7b_q4 + HyperAgent | Y | Y | 342.56 | 2 |
+| 🔴 qwen2_7b_q4 (run 3) + AgileCoder | Y | Y |  | 2 |
+| 🔴 qwen2_7b_q4 (run 2) + HyperAgent | Y | Y | | 2 |
+| 🔴 qwen2_7b_fp16 |  |  |  |  |
+| 🔴 qwen2_7b_fp16 + MetaGPT | Y | N |  | 0 |
+| 🔴 qwen2_7b_fp16 + ChatDev | N | N |  | 0 |
+| 🔴 qwen2_7b_fp16 (run 2) + AgileCoder | Y | Y |  | 1 |
+| 🔴 qwen2_7b_fp16 + HyperAgent | Y | N |  | 0 |
 | llama3_3b_fp16 | Y | N | 17.00 | 0 |
 | llama3_3b_fp16 + MetaGPT | Y | N | 219.26 | 0 |
 | llama3_3b_fp16 + ChatDev | N | N | 199.00 | 0 |
@@ -116,27 +131,27 @@ Notation:
 | llama3_3b_fp16 + HyperAgent | Y | Y | 244.64 | 1 |
 | qwen2_3b_q4 | Y | N | 28.00 | 0 |
 | qwen2_3b_q4 + MetaGPT | Y | N | 219.26 | 0 |
-| qwen2_3b_q4 + ChatDev | N | N | 80.00 | 0 |
+| 🔴 qwen2_3b_q4 (run 3) + ChatDev | Y | Y |  | 0 |
 | qwen2_3b_q4 + AgileCoder | Y | N | 855.00 | 0 |
-| qwen2_3b_q4 + HyperAgent | Y | Y | 59.55 | 2 |
+| 🔴 qwen2_3b_q4 + HyperAgent | Y | Y | 59.55 | 3 |
 | gpt_oss_20b | Y | Y | 29.00 | 2 |
-| gpt_oss_20b + MetaGPT | N | N | 1691.21 | 0 |
-| gpt_oss_20b + ChatDev | N | N | 492.00 | 0 |
-| gpt_oss_20b + AgileCoder | Y | Y | 309.00 | 2 |
-| gpt_oss_20b + HyperAgent | N | N | 307.25 | 0 |
+| gpt_oss_20b + MetaGPT | Y | N | 1691.21 | 0 |
+| 🔴 gpt_oss_20b (run 2) + ChatDev | Y | Y | | 11 |
+| 🔴 gpt_oss_20b + AgileCoder | Y | Y | 309.00 | 4 |
+| 🔴 gpt_oss_20b (run 2) + HyperAgent | Y | Y |  | 0 |
 | llama3_70b_q3 | Y | Y | 225.00 | 7 |
 | llama3_70b_q3 + MetaGPT | Y | N | 2523.00 | 0 |
-| llama3_70b_q3 + ChatDev | Y | N | 2997.00 | 0 |
-| llama3_70b_q3 + AgileCoder | Y | N | 29235.00 | 0 |
+| 🔴 llama3_70b_q3 (run 3) + ChatDev | Y | Y | | 2 |
+| 🔴 llama3_70b_q3 (run 2) + AgileCoder | Y | Y |  | 7 |
 | llama3_70b_q3 + HyperAgent | Y | N | 2163.13 | 0 |
 | llama3_70b_q4 | Y | Y | 418.00 | 6 |
 | llama3_70b_q4 + MetaGPT | Y | N | 2805.44 | 0 |
-| llama3_70b_q4 + ChatDev | Y | N | 5185.00 | 0 |
-| llama3_70b_q4 + AgileCoder | N | N | ND | 0 |
+| 🔴 llama3_70b_q4 (run 2) + ChatDev | Y | Y |  | 9 |
+| 🔴 llama3_70b_q4 (run 3) + AgileCoder | Y | Y |  | 8 |
 | llama3_70b_q4 + HyperAgent | Y | Y | 2055.44 | 2 |
 | devstral_24b_fp16 | Y | Y | 483.00 | 4 |
-| devstral_24b_fp16 + MetaGPT | Y | N | 5275.86 | 0 |
-| devstral_24b_fp16 + ChatDev | Y | Y | 3315.00 | 1 |
+| 🔴 devstral_24b_fp16 (run 2) + MetaGPT | Y | Y |  | 0 |
+| 🔴 devstral_24b_fp16 (run 3) + ChatDev | Y | Y | | 8 |
 | devstral_24b_fp16 + AgileCoder | Y | N | 36398.00 | 0 |
 | devstral_24b_fp16 + HyperAgent | Y | Y | 417.43 | 0 |
 
