@@ -81,7 +81,7 @@ Notation:
 | llama3_70b_q3 + MetaGPT | Y | Y | 2190.71 | 8 |
 | llama3_70b_q3 + ChatDev | Y | Y | 3075.00 | 4 |
 | llama3_70b_q3 + AgileCoder | Y | Y | 24000.00 | 0 |
-| llama3_70b_q3 + HyperAgent | Y | Y | 2812.85 | 8 |
+| 🔴 llama3_70b_q3 (run 3) + HyperAgent | Y | Y | 1994.17 | 8 |
 | llama3_70b_q4 | Y | Y | 506.00 | 5 |
 | llama3_70b_q4 + MetaGPT | N | N | 2777.27 | 0 |
 | llama3_70b_q4 + ChatDev | Y | Y | 3379.00 | 6 |
