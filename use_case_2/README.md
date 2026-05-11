@@ -92,71 +92,71 @@ Notation:
 | qwen_32b_q4 | Y | N | 32.00 | 0 |
 | qwen_32b_q4 + MetaGPT | Y | Y | 304.31 | 1 |
 | 🔴 qwen_32b_q4 + ChatDev | Y | Y | 7059.00 | 6 |
-| 🔴 qwen_32b_q4 (run 3) + AgileCoder | Y | Y |  | 5 |
+| 🔴 qwen_32b_q4 (run 3) + AgileCoder | Y | Y | 15656.00 | 5 |
 | qwen_32b_q4 + HyperAgent | Y | Y | 975.00 | 1 |
 | gemma_27b_fp16 | Y | Y | 951.00 | 2 |
-| 🔴 gemma_27b_fp16 (run 2) + MetaGPT | Y | N |  | 5 |
-| 🔴 gemma_27b_fp16 (run 2) + ChatDev | Y | Y |  | 4 |
-| 🔴 gemma_27b_fp16 (run 3) + AgileCoder | Y | Y |  | 5 |
-| 🔴 gemma_27b_fp16 (run 2) + HyperAgent | Y | Y |  | 2 |
-| 🔴 llama3_70b_q8 | Y | Y |  | 1 |
+| 🔴 gemma_27b_fp16 (run 2) + MetaGPT | Y | N | 6054.68 | 5 |
+| 🔴 gemma_27b_fp16 (run 2) + ChatDev | Y | Y | 12021.00 | 4 |
+| 🔴 gemma_27b_fp16 (run 3) + AgileCoder | Y | Y | 6720.00 | 5 |
+| 🔴 gemma_27b_fp16 (run 2) + HyperAgent | Y | Y | 3044.76 | 2 |
+| 🔴 llama3_70b_q8 | Y | Y | 731.00 | 1 |
 | 🔴 llama3_70b_q8 (run 2) + MetaGPT | Y | N |  | 0 |
-| 🔴 llama3_70b_q8 (run 3) + ChatDev | Y | Y | | 1 |
-| 🔴 llama3_70b_q8 (run 2) + AgileCoder | Y | Y |  | 0 |
-| 🔴 llama3_70b_q8 + HyperAgent | Y | Y |  | 4 |
-| 🔴 codellama_7b_q4 | N | N |  | 0 |
-| 🔴 codellama_7b_q4 + MetaGPT | Y | N |  | 0 |
-| 🔴 codellama_7b_q4 + ChatDev | Y | N |  | 0 |
+| 🔴 llama3_70b_q8 (run 3) + ChatDev | Y | Y | 13110.00 | 1 |
+| 🔴 llama3_70b_q8 (run 2) + AgileCoder | Y | Y | 53873.00 | 0 |
+| 🔴 llama3_70b_q8 + HyperAgent | Y | Y | 4080.55 | 4 |
+| 🔴 codellama_7b_q4 | N | N | 4.00 | 0 |
+| 🔴 codellama_7b_q4 + MetaGPT | Y | N | 56.73 | 0 |
+| 🔴 codellama_7b_q4 + ChatDev | Y | N | 238.00 | 0 |
 | 🔴 codellama_7b_q4 (run 3) + AgileCoder | Y | Y |  | 0 |
-| 🔴 codellama_7b_q4 + HyperAgent | N | N |  | 0 |
+| 🔴 codellama_7b_q4 + HyperAgent | N | N | 12.26 | 0 |
 | codellama_7b_fp16 | N | N | 15.00 | 0 |
-| 🔴 codellama_7b_fp16 (run 3) + MetaGPT | Y | Y |  | 0 |
+| 🔴 codellama_7b_fp16 (run 3) + MetaGPT | Y | Y | 97.27 | 0 |
 | codellama_7b_fp16 + ChatDev | Y | N | 437.00 | 0 |
 | codellama_7b_fp16 + AgileCoder | Y | Y | 2955.00 | 1 |
-| codellama_7b_fp16 + HyperAgent | N | N | 19.20 | 0 |
+| codellama_7b_fp16 + HyperAgent | N | N | 19.23 | 0 |
 | 🔴 qwen2_7b_q4 | Y | Y | 16.00 | 3 |
 | qwen2_7b_q4 + MetaGPT | Y | N | 1857.86 | 0 |
 | qwen2_7b_q4 + ChatDev | N | N | 118.00 | 0 |
-| 🔴 qwen2_7b_q4 (run 3) + AgileCoder | Y | Y |  | 2 |
-| 🔴 qwen2_7b_q4 (run 2) + HyperAgent | Y | Y | | 2 |
-| 🔴 qwen2_7b_fp16 | Y | N |  | 0 |
-| 🔴 qwen2_7b_fp16 + MetaGPT | Y | N |  | 0 |
-| 🔴 qwen2_7b_fp16 + ChatDev | N | N |  | 0 |
-| 🔴 qwen2_7b_fp16 (run 2) + AgileCoder | Y | Y |  | 1 |
-| 🔴 qwen2_7b_fp16 + HyperAgent | Y | N |  | 0 |
+| 🔴 qwen2_7b_q4 (run 3) + AgileCoder | Y | Y | 2204.00 | 2 |
+| 🔴 qwen2_7b_q4 (run 2) + HyperAgent | Y | Y | 54.16 | 2 |
+| 🔴 qwen2_7b_fp16 | Y | N | 37.00 | 0 |
+| 🔴 qwen2_7b_fp16 + MetaGPT | Y | N | 1476.05 | 0 |
+| 🔴 qwen2_7b_fp16 + ChatDev | N | N | 290.00 | 0 |
+| 🔴 qwen2_7b_fp16 (run 2) + AgileCoder | Y | Y | 478.00 | 1 |
+| 🔴 qwen2_7b_fp16 + HyperAgent | Y | N | 98.44 | 0 |
 | llama3_3b_fp16 | Y | N | 17.00 | 0 |
 | llama3_3b_fp16 + MetaGPT | Y | N | 219.26 | 0 |
 | llama3_3b_fp16 + ChatDev | N | N | 199.00 | 0 |
 | llama3_3b_fp16 + AgileCoder | N | N | 187.00 | 0 |
 | llama3_3b_fp16 + HyperAgent | Y | Y | 244.64 | 1 |
-| 🔴 llama3_3b_q4 | Y | N |  | 0 |
-| 🔴 llama3_3b_q4 + MetaGPT | Y | N |  | 0 |
-| 🔴 llama3_3b_q4 + ChatDev | Y | N |  | 0 |
-| 🔴 llama3_3b_q4 + AgileCoder | N | N |  | 0 |
-| 🔴 llama3_3b_q4 (run 3) + HyperAgent | Y | Y |  | 1 |
+| 🔴 llama3_3b_q4 | Y | N | 7.00 | 0 |
+| 🔴 llama3_3b_q4 + MetaGPT | Y | N | 393.83 | 0 |
+| 🔴 llama3_3b_q4 + ChatDev | Y | N | 185.00 | 0 |
+| 🔴 llama3_3b_q4 + AgileCoder | N | N | 51.00 | 0 |
+| 🔴 llama3_3b_q4 (run 3) + HyperAgent | Y | Y | 8.22 | 1 |
 | qwen2_3b_q4 | Y | N | 28.00 | 0 |
-| qwen2_3b_q4 + MetaGPT | Y | N | 219.26 | 0 |
-| 🔴 qwen2_3b_q4 (run 3) + ChatDev | Y | Y |  | 0 |
+| qwen2_3b_q4 + MetaGPT | Y | N | 96.27 | 0 |
+| 🔴 qwen2_3b_q4 (run 3) + ChatDev | Y | Y | 200.00 | 0 |
 | qwen2_3b_q4 + AgileCoder | Y | N | 855.00 | 0 |
 | 🔴 qwen2_3b_q4 + HyperAgent | Y | Y | 59.55 | 3 |
 | gpt_oss_20b | Y | Y | 29.00 | 2 |
 | gpt_oss_20b + MetaGPT | Y | N | 1691.21 | 0 |
-| 🔴 gpt_oss_20b (run 2) + ChatDev | Y | Y | | 11 |
+| 🔴 gpt_oss_20b (run 2) + ChatDev | Y | Y | 274.00 | 11 |
 | 🔴 gpt_oss_20b + AgileCoder | Y | Y | 309.00 | 4 |
-| 🔴 gpt_oss_20b (run 2) + HyperAgent | Y | Y |  | 0 |
+| 🔴 gpt_oss_20b (run 2) + HyperAgent | Y | Y | 26.74 | 0 |
 | llama3_70b_q3 | Y | Y | 225.00 | 3 |
 | llama3_70b_q3 + MetaGPT | Y | N | 2523.00 | 0 |
-| 🔴 llama3_70b_q3 (run 3) + ChatDev | Y | Y | | 2 |
-| 🔴 llama3_70b_q3 (run 2) + AgileCoder | Y | Y |  | 8 |
+| 🔴 llama3_70b_q3 (run 3) + ChatDev | Y | Y | 5814.00 | 2 |
+| 🔴 llama3_70b_q3 (run 2) + AgileCoder | Y | Y | 14583.00 | 8 |
 | llama3_70b_q3 + HyperAgent | Y | N | 2163.13 | 0 |
 | llama3_70b_q4 | Y | Y | 418.00 | 7 |
 | llama3_70b_q4 + MetaGPT | Y | N | 2805.44 | 0 |
-| 🔴 llama3_70b_q4 (run 2) + ChatDev | Y | Y |  | 9 |
-| 🔴 llama3_70b_q4 (run 3) + AgileCoder | Y | Y |  | 8 |
+| 🔴 llama3_70b_q4 (run 2) + ChatDev | Y | Y | 5853.00 | 9 |
+| 🔴 llama3_70b_q4 (run 3) + AgileCoder | Y | Y | 53911.00 | 8 |
 | llama3_70b_q4 + HyperAgent | Y | Y | 2055.44 | 2 |
 | devstral_24b_fp16 | Y | Y | 483.00 | 3 |
-| 🔴 devstral_24b_fp16 (run 2) + MetaGPT | Y | Y |  | 0 |
-| 🔴 devstral_24b_fp16 (run 3) + ChatDev | Y | Y | | 8 |
+| 🔴 devstral_24b_fp16 (run 2) + MetaGPT | Y | Y | 5471.89 | 0 |
+| 🔴 devstral_24b_fp16 (run 3) + ChatDev | Y | Y | 6061.00 | 8 |
 | devstral_24b_fp16 + AgileCoder | Y | N | 36398.00 | 0 |
 | devstral_24b_fp16 + HyperAgent | Y | Y | 417.43 | 0 |
 
