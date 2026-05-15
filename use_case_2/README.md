@@ -99,11 +99,6 @@ Notation:
 | gemma_27b_fp16 (run 2) + ChatDev | Y | Y | 12021.00 | 4 |
 | gemma_27b_fp16 (run 3) + AgileCoder | Y | Y | 6720.00 | 5 |
 | gemma_27b_fp16 (run 2) + HyperAgent | Y | Y | 3044.76 | 2 |
-| llama3_70b_q8 | Y | Y | 731.00 | 1 |
-| llama3_70b_q8 (run 2) + MetaGPT | Y | N |  | 0 |
-| llama3_70b_q8 (run 3) + ChatDev | Y | Y | 13110.00 | 1 |
-| llama3_70b_q8 (run 2) + AgileCoder | Y | Y | 53873.00 | 0 |
-| llama3_70b_q8 + HyperAgent | Y | Y | 4080.55 | 4 |
 | codellama_7b_q4 | N | N | 4.00 | 0 |
 | codellama_7b_q4 + MetaGPT | Y | N | 56.73 | 0 |
 | codellama_7b_q4 + ChatDev | Y | N | 238.00 | 0 |
