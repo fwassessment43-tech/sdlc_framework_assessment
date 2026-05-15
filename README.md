@@ -34,7 +34,7 @@ Each dimension is rated on a **3-point Likert scale**:
 - **2 = Average**
 - **3 = Good**
 
-# **1. 🎮 Playability**
+##### **1. 🎮 Playability**
 
 **Definition**
 
@@ -89,7 +89,7 @@ How functional, responsive, and playable the game is. Focus on **controls, mech
 - Stable performance throughout
 
 
-# **2. 🎉 Entertainment**
+##### **2. 🎉 Entertainment**
 
 **Definition**
 
@@ -141,7 +141,7 @@ How engaging and enjoyable this specific implementation of Snake is, independent
 - Gameplay creates tension and excitement
 
 
-# **3. 🎨 Aesthetics**
+##### **3. 🎨 Aesthetics**
 
 **Definition**
 
