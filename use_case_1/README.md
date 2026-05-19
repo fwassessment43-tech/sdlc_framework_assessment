@@ -72,17 +72,17 @@ Notation:
 | qwen2_7b_q4 + ChatDev | N | N | 851.00 | 0 |
 | qwen2_7b_q4 + AgileCoder | Y | Y | 2541.00 | 2 |
 | qwen2_7b_q4 + HyperAgent | Y | N | 91.91 | 0 |
-| gpt_oss_20b | Y | Y | 32.00 | 0 |
+| gpt_oss_20b (run 2) | Y | Y | 35.34 | 8 |
 | gpt_oss_20b + MetaGPT | Y | Y | 561.67 | 8 |
 | gpt_oss_20b + ChatDev | Y | Y | 306.00 | 10 |
 | gpt_oss_20b + AgileCoder | Y | Y | 623.00 | 3 |
 | gpt_oss_20b + HyperAgent | N | N | 18.09 | 0 |
-| llama3_70b_q3 | Y | Y | 302.00 | 8 |
+| llama3_70b_q3 (run 2) | Y | Y | 254.76 | 9 |
 | llama3_70b_q3 + MetaGPT | Y | Y | 2190.71 | 8 |
 | llama3_70b_q3 + ChatDev | Y | Y | 3075.00 | 4 |
 | llama3_70b_q3 + AgileCoder | Y | Y | 24000.00 | 0 |
 | llama3_70b_q3 (run 3) + HyperAgent | Y | Y | 1994.17 | 8 |
-| llama3_70b_q4 | Y | Y | 506.00 | 5 |
+| llama3_70b_q4 (run 3) | Y | Y | 257.88 | 9 |
 | llama3_70b_q4 + MetaGPT | N | N | 2777.27 | 0 |
 | llama3_70b_q4 + ChatDev | Y | Y | 3379.00 | 6 |
 | llama3_70b_q4 + AgileCoder | Y | Y | 31906.00 | 6 |
